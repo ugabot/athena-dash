@@ -1,0 +1,18 @@
+$colors: (
+    'white': #ffffff,
+    'black': #000000,
+    'limeGreen': #67db7c,
+    'cyan': #45ece7,
+    'navyBlue': #1b1d3d,
+    'grey': #939393,
+    'darkGrey': #707070,
+    'lightGrey': lightgray,
+    'chartDarkBlue': #0a0dbd,
+    'chartBlue': #437cf8
+);
+
+:export {
+    @each $name, $color in $colors {
+      #{$name}: $color                
+    }
+  }
