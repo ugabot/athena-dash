@@ -6,7 +6,7 @@ import { act } from "react-test-renderer";
 
 const stubbedUsers = [
   { full_name: "Peter Pan", age: "50", income: 10_000 },
-  { full_namename: "Mickey Mouse", age: "60", income: 20_000 },
+  { full_name: "Mickey Mouse", age: "60", income: 20_000 },
 ];
 const stubbedFetchUrl = "test-api.com/userUrl-mock";
 
